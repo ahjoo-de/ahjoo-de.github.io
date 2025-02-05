@@ -1,6 +1,9 @@
-### About me
+---
+layout: page
+title: About me
+---
 
-nerd
-star wars fan
+nerd,
+star wars fan,
 it-consultant
 .
