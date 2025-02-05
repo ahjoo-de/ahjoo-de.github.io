@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Ahjoo Blog
+title: Welcome
 ---
 
 
