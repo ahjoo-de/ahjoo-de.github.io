@@ -5,8 +5,8 @@ title: Very First Post
 
 This is my very first post on this blog!
 
-> [!TIP]
 > Helpful advice for doing things better or more easily.
+
 
 ```yaml linenos
 
