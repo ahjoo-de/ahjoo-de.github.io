@@ -8,7 +8,7 @@ This is my very first post on this blog!
 > Helpful advice for doing things better or more easily.
 
 
-```js
+```javascript
 
 (function transformEntry(source, target, map, log /*undefined onStart*/ ) {
 
