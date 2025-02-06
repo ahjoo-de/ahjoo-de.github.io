@@ -8,7 +8,7 @@ This is my very first post on this blog!
 > [!TIP]
 > Helpful advice for doing things better or more easily.
 
-```tsql
+```yaml
 
 (function transformEntry(source, target, map, log /*undefined onStart*/ ) {
 
