@@ -2,15 +2,15 @@
 layout: post
 title: Custom Action for JSON creation
 ---
-##Situation
+## Situation
 
 You have a flow where you need to parse the data from different sources, which of those is an array with n records in it, into a JSON to pass it to another application (in this case it was the Ansible Spoke to run a Job Template)
 
-##Prerequesites
+## Prerequesites
 
 We will create a custom action with several inputs and one output.
 
-###Inputs
+### Inputs
 | Label         | Name     | Type     |
 | ------------- | -------- |----------|
 | Value 1       | value1   |Reference |
@@ -19,9 +19,9 @@ We will create a custom action with several inputs and one output.
 | Value 4       | value4   |String    |
 | Value 5       | value5   |Integer   |
 
-###Script Step
+### Script Step
 
-####Input Variables
+#### Input Variables
 
 | Name          | Value          | __Type__   |
 | ------------- | -------------- |----------- |
@@ -37,7 +37,7 @@ We will create a custom action with several inputs and one output.
 | Input10       | value5         |__Integer__ |
 
 
-####Script
+#### Script
 
 ```javascript
 
@@ -83,14 +83,14 @@ We will create a custom action with several inputs and one output.
 
 ```
 
-####Output Variables
+#### Output Variables
 
 | Label         | Name           | Type       |
 | ------------- | -------------- |----------- |
 | output        | output         |JSON        |
 
 
-###Outputs
+### Outputs
 
 | Label         | Value                |
 | ------------- | -------------------- |
