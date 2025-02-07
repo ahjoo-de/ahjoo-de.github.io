@@ -16,13 +16,14 @@ You have a flow where you need to parse the data from different sources, which o
 We will create a custom action with several inputs and one output.
 
 ### Inputs
-| Label         | Name     | Type |
-| ------------- | -------- |---- |
-| Value 1       | value1   |Reference |
-| Value 2       | value2   |Array (holding two values arrayValue1[^1] , arrayValue2) |
-| Value 3       | value3   |String |
-| Value 4       | value4   |String |
-| Value 5       | value5   |Integer |
+
+| Label | Name | Type |
+| --- | --- |--- |
+| Value 1 | value1 |Reference |
+| Value 2 | value2 |Array (arrayValue1[^1], arrayValue2) |
+| Value 3 | value3 |String |
+| Value 4 | value4 |String |
+| Value 5 | value5 |Integer |
 
 [^1]: (sysID referencing to table x_array_table)
 
