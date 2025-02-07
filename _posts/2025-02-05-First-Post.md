@@ -1,43 +1,71 @@
 ---
 layout: post
-title: Very First Post
+title: Catalog Item Snippets 2024
+tags:
+- ServiceNow
+- ServiceCatalog
+- Script
 ---
 
-This is my very first post on this blog!
+# Catalog Item Snippets
 
-> Helpful advice for doing things better or more easily.
+This is a collection of snippets i used in catalog items in the last year.
 
+## Overview
+[Populate Multi Row Variable Set](#populate-a-field-in-a-multi-row-variable-set-with-the-infromation-from-a-variable-outside-of-that-set)
+[Reference Qualifier for dependent Variables](#reference-qualifier-for-dependent-variables)
+
+## Populate a field in a Multi-Row Variable Set with the Infromation from a Variable outside of that Set.
+
+### What is needed
+
+* Variable1
+* Variable Set
+    * Variable2
+    * Variable3
+* Catalog Client Sript in Catalog Item
+* Catalog Client Script in Variable Set
+
+#### Catalog Client Sript in Catalog Item
+
+* UI Type: All
+* Type: onLoad
+
+Script:
 
 ```javascript
-
-(function transformEntry(source, target, map, log /*undefined onStart*/ ) {
-
-    log. info('u_cutsomer_coria_id value: ' + source.u_customer_coria_id);
-
-    if (source.u_customer_coria_id) {
-
-        var serviceGR = new GlideRecord('cmdb_ci_service');
-
-        serviceGR.addQuery('u_coria_id', source.u_customer_coria_id);
-
-        serviceGR.addQuery('sys_class_name', 'cmdb_ci_service');
-
-        serviceGR.query();
-
-        if (serviceGR.next()){
-
-            target.customer_coria_id = serviceGR.sys_id;
-
-        } else {
-
-            log.error('No matching service found for u_customer_coria_id: ' + source.u_customer_coria_id)
-
-        }
-
-    }
-
-    // Add your code here
-
-})(source, target, map, log);
-
+function onLoad() {
+    this.my_g_form = g_form;
+}
 ```
+
+#### Catalog Client Script in Variable Set
+
+* UI Type: All
+* Type: onLoad
+
+```javascript
+function onLoad() {
+    if(this.my_g_form) {
+        g_form.setValue('Variable2', this.my_g_form.getValue('Variable1'))
+    }
+}
+```
+
+## Reference Qualifier for dependent Variables
+
+### Prerequisites
+
+* variable1 - Reference x_table1
+* variable2 - Reference x_table2
+* value1 a Field in x_table2 referencing to a record in x_table1
+
+### Type Specifications *variable2*
+
+* Reference: x_table1
+* Use reference qualifier: advanced
+* Reference qualifier: `javasripct:'value1='+current.variables.variable1`{:.language-javascript .highlight}
+* Variable attributes: `ref_qual_elements=variable1`{:.language-javascript .highlight}
+
+
+

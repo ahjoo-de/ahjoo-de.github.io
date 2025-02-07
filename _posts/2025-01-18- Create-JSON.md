@@ -25,7 +25,7 @@ We will create a custom action with several inputs and one output.
 | Value 4 | value4 |String |
 | Value 5 | value5 |Integer |
 
-[^1]: (sysID referencing to table x_array_table)
+[^1]: arrayValue1 is a sysID referencing to table x_array_table
 
 ### Script Step
 
@@ -51,8 +51,6 @@ We will create a custom action with several inputs and one output.
 
 (function execute(inputs, outputs) {
   
-// Create an empty JSON object
-
     var jsonObj = {};
     var recordsArray = [];
     var input7Array = inputs.input7;
