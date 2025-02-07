@@ -81,7 +81,7 @@ The selection of records for variable2 should be narrowed down by the value of v
 The selection of records for variable3 should be narrowed down by the values different fields of the records selected for variable1 and variable2
 
 
-### Type Specifications *variable2*
+### Type Specifications *variable3*
 
 * Reference: x_table3
 * Use reference qualifier: advanced
