@@ -28,11 +28,11 @@ layout: base
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-    {% for tag in page.tags %}
-        {{ tag }}
-    {% endfor %}
-
   </div>
+
+  {% for tag in page.tags %}
+  {{ tag }}
+  {% endfor %}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
