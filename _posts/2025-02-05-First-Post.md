@@ -11,7 +11,8 @@ This is a collection of snippets i used in catalog items in the last year.
 
 ## Overview
 [Populate Multi Row Variable Set](#populate-a-field-in-a-multi-row-variable-set-with-the-infromation-from-a-variable-outside-of-that-set)   
-[Reference Qualifier for dependent Variables](#reference-qualifier-for-dependent-variables)
+[Reference Qualifier for dependent Variables](#reference-qualifier-for-dependent-variables)  
+[Reference Qualifier for dependent Variables (advanced Version)](#reference-qualifier-for-dependent-variables-advanced-version)  
 
 ## Populate a field in a Multi-Row Variable Set with the Infromation from a Variable outside of that Set.
 
@@ -90,3 +91,32 @@ javascript:'value1='+current.variables.variable1.name'^value2='+current.variable
 ```
 * Variable attributes: `ref_qual_elements=variable2`{:.language-javascript .highlight}
 
+## Transform Map Script Reference Product ID
+
+### Prerequisites
+
+In the Service table (cmdb_ci_service) a custom field u_product_id was added to identify the product for the service.  
+
+In a custom table (x_table1) the service is linked in a reference field called u_product, this references a record in the Service Table with class=service
+
+The file for CSV import only contains the product id as an integer, so the script has to find the correct record to reference to.
+
+```javascript
+(function transformEntry(source, target, map, log) {
+
+    log. info('u_cutsomer_coria_id value: ' + source.u_customer_coria_id);
+
+    if (source.u_customer_coria_id) {
+        var serviceGR = new GlideRecord('cmdb_ci_service');
+        serviceGR.addQuery('u_coria_id', source.u_customer_coria_id);
+        serviceGR.addQuery('sys_class_name', 'cmdb_ci_service');
+        serviceGR.query();
+
+        if (serviceGR.next()){
+            target.customer_coria_id = serviceGR.sys_id;
+        } else {
+            log.error('No matching service found for u_customer_coria_id: ' + source.u_customer_coria_id)
+        }
+    }
+})(source, target, map, log);
+```
