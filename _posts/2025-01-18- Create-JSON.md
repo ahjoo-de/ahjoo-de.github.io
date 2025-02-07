@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Custom Action for JSON creation
+tags:
+- ServiceNow
+- FlowDesigner
+- JSON
+- Script
 ---
 ## Situation
 
