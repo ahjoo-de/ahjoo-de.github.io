@@ -101,6 +101,8 @@ In a custom table (x_table1) the service is linked in a reference field called u
 
 The file for CSV import only contains the product id as an integer, so the script has to find the correct record to reference to.
 
+### Script
+
 ```javascript
 (function transformEntry(source, target, map, log) {
 
