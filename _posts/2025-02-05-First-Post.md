@@ -12,7 +12,7 @@ tags:
 This is a collection of snippets i used in catalog items in the last year.
 
 ## Overview
-[Populate Multi Row Variable Set](#populate-a-field-in-a-multi-row-variable-set-with-the-infromation-from-a-variable-outside-of-that-set)
+[Populate Multi Row Variable Set](#populate-a-field-in-a-multi-row-variable-set-with-the-infromation-from-a-variable-outside-of-that-set) /
 [Reference Qualifier for dependent Variables](#reference-qualifier-for-dependent-variables)
 
 ## Populate a field in a Multi-Row Variable Set with the Infromation from a Variable outside of that Set.
