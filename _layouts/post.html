@@ -30,19 +30,12 @@ layout: base
     {{ content }}
   </div>
 
-  {% if page.tags %}
-  <p class="post-tags">
-    <strong>Tags:</strong>
+  <span>[
     {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
     {% endfor %}
-  </p>
-{% endif %}
-
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+  ]</span>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

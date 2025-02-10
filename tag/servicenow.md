@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: tagpage
 title: "Tag: ServiceNow"
 tag: ServiceNow
 ---
