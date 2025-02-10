@@ -7,9 +7,12 @@ tags:
 - json
 - script
 ---
+
+How to create a custom action fro the use in Flow Designer to create a JSON out of different Data sources within the flow.
+
 ## Situation
 
-You have a flow where you need to parse the data from different sources, which of those is an array with n records in it, into a JSON to pass it to another application (in this case it was the Ansible Spoke to run a Job Template)
+You have a flow where you need to parse the data from different sources, which one of those is an array with n records in it, into a JSON to pass it to another application (in this case it was the Ansible Spoke to run a Job Template)
 
 ## Prerequesites
 
