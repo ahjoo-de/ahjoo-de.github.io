@@ -2,9 +2,9 @@
 layout: post
 title: Transform Map Scripts
 tags:
-- ServiceNow
-- TransformMap
-- Script
+- servicenow
+- transformmap
+- script
 ---
 This is a collection of snippets i used in catalog items in the last year.
 

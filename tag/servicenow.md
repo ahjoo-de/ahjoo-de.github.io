@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: ServiceNow"
-tag: ServiceNow
+title: "Tag: servicenow"
+tag: servicenow
 ---
