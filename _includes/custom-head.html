@@ -21,8 +21,11 @@
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/markdown.min.js"></script>
 
 <script>hljs.highlightAll();</script>
-  
-
 <!-- end highlight.js support -->
 
+<!-- Begin tags integration -->
+{% if site.tags != "" %}
+  {% include generate_tags.html %}
+{% endif %}
+<!-- End tags integration -->
 </head>
