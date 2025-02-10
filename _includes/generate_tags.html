@@ -1,0 +1,14 @@
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+  {% for tag in post.tags %}
+    {% assign rawtags = rawtags | append: tag | append: "," %}
+  {% endfor %}
+{% endfor %}
+{% assign rawtags = rawtags | split: "," | uniq | sort %}
+
+{% for tag in rawtags %}
+  {% capture tag_slug %}{{ tag | slugify }}{% endcapture %}
+  {% if tag != "" %}
+    - [{{ tag }}]({{ site.baseurl }}/tags/{{ tag_slug }}/)
+  {% endif %}
+{% endfor %}
