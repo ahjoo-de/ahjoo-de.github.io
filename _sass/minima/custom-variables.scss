@@ -1,17 +1,17 @@
 
 $brand-color:           #E69875;
-$brand-color-light:     #7FBBB3;
-$brand-color-dark:      #83C092; //darken($brand-color, 35%) ;
+$brand-color-light:     #EEB8A0;
+$brand-color-dark:      #FF8E5C;
 
-$site-title-color:      $brand-color-light ;
+$site-title-color:      $brand-color ;
 
 $text-color:            #D3C6AA ;
 $background-color:      #2D353B ;
 $code-background-color: #343F44 ;
 
 $link-base-color:       #E69875 ;
-$link-visited-color:    #83C092 ;
-$link-hover-color:      #514045 ;
+$link-visited-color:    #514045 ;
+$link-hover-color:      #83C092 ;
 
 $border-color-01:       $brand-color-dark ;
 $border-color-02:       $brand-color-light ;
@@ -20,5 +20,5 @@ $border-color-03:       $brand-color ;
 $table-text-color:      $text-color ;
 $table-zebra-color:     lighten($background-color, 4%) ;
 $table-header-bg-color: lighten($background-color, 10%) ;
-$table-header-border:   lighten($background-color, 21%) ;
+$table-header-border:   $border-color-01 ;
 $table-border-color:    $border-color-01 ;
