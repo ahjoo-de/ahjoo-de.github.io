@@ -22,8 +22,3 @@ $table-zebra-color:     lighten($background-color, 4%) ;
 $table-header-bg-color: lighten($background-color, 10%) ;
 $table-header-border:   lighten($background-color, 21%) ;
 $table-border-color:    $border-color-01 ;
-
-
-@import
-  "minima/skins/{{ site.minima.skin | default: 'dark' }}",
-  "minima/initialize";
