@@ -1,7 +1,7 @@
 
 $brand-color:           #E69875;
 $brand-color-light:     lighten($brand-color, 5%) ;
-$brand-color-dark:      darken($brand-color, 35%) ;
+$brand-color-dark:      #3A515D; //darken($brand-color, 35%) ;
 
 $site-title-color:      $brand-color-light ;
 
