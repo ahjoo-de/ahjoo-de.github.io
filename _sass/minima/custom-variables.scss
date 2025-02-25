@@ -7,15 +7,16 @@ $site-title-color:      $brand-color ;
 
 $text-color:            #D3C6AA ;
 $background-color:      #2D353B ;
-$code-background-color: #343F44 ;
+$code-background-color: #3A4248 ;
 
-$link-base-color:       #E69875 ;
+
+$link-base-color:       #A7C080 ;
 $link-visited-color:    #514045 ;
 $link-hover-color:      #83C092 ;
 
-$border-color-01:       $brand-color-dark ;
-$border-color-02:       $brand-color-light ;
-$border-color-03:       $brand-color ;
+$border-color-01:       #475258 ;
+$border-color-02:       lighten($border-color-01, 4%) ;
+$border-color-03:       lighten($border-color-01, 10%);
 
 $table-text-color:      $text-color ;
 $table-zebra-color:     lighten($background-color, 4%) ;
