@@ -54,8 +54,8 @@ minima:
   # solarized	         Adaptive skin for solarized color scheme skins.
   skin: dark
   show_excerpts: true
-  custom_css:
-    - /_sass/minima/custom-variables.scss
+  # custom_css:
+  #   - /_sass/minima/custom-variables.scss
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
