@@ -2,7 +2,7 @@ $brand-color:           #E69875;
 $brand-color-light:     lighten($brand-color, 5%) ;
 $brand-color-dark:      darken($brand-color, 35%) ;
 
-$site-title-color:      $dm-brand-color-light ;
+$site-title-color:      $brand-color-light ;
 
 $text-color:            #D3C6AA ;
 $background-color:      #232A2E ;
@@ -12,9 +12,9 @@ $link-base-color:       #83C892 ;
 $link-visited-color:    $link-base-color ;
 $link-hover-color:      #E69875 ;
 
-$border-color-01:       $dm-brand-color-dark ;
-$border-color-02:       $dm-brand-color-light ;
-$border-color-03:       $dm-brand-color ;
+$border-color-01:       $brand-color-dark ;
+$border-color-02:       $brand-color-light ;
+$border-color-03:       $brand-color ;
 
 $table-text-color:      $text-color ;
 $table-zebra-color:     lighten($background-color, 4%) ;
