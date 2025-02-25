@@ -1,0 +1,24 @@
+
+$brand-color:           #E69875;
+$brand-color-light:     #E69875;
+$brand-color-dark:      #3A515D; //darken($brand-color, 35%) ;
+
+$site-title-color:      $brand-color-light ;
+
+$text-color:            #D3C6AA ;
+$background-color:      #232A2E ;
+$code-background-color: #56635F ;
+
+$link-base-color:       #E69875 ;
+$link-visited-color:    $link-base-color ;
+$link-hover-color:      #83C892 ;
+
+$border-color-01:       $brand-color-dark ;
+$border-color-02:       $brand-color-light ;
+$border-color-03:       $brand-color ;
+
+$table-text-color:      $text-color ;
+$table-zebra-color:     lighten($background-color, 4%) ;
+$table-header-bg-color: lighten($background-color, 10%) ;
+$table-header-border:   lighten($background-color, 21%) ;
+$table-border-color:    $border-color-01 ;
