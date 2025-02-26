@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+show_title: false
 ---
 
 <div style="text-align: center;">

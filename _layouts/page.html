@@ -4,7 +4,9 @@ layout: base
 <article class="post">
 
   <header class="post-header">
-<!--   <h3 class="post-title">{{ page.title | escape }}</h3> -->
+{% if page.show_title != false %}
+<h3 class="post-title">{{ page.title | escape }}</h3>
+{% endif []}
   </header>
 
   <div class="post-content">
