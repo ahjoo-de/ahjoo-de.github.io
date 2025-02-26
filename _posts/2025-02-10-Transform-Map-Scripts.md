@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Transform Map Scripts
+description: This is a collection of Scripts to get used in Transform Maps for Data Import.
 categories:
 - ServiceNow
 tags:
 - transformmap
 - script
 ---
-This is a collection of snippets i used in catalog items in the last year.
+
+This is a collection of Scripts to get used in Transform Maps for Data Import.
 
 ## Overview
 [Transform Map Script Reference Product ID](#reference-product-id)   

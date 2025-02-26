@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Catalog Item Snippets 2024
+description: This is a collection of snippets i used in catalog items during the year 2024.
 categories:
 - ServiceNow
 tags:
