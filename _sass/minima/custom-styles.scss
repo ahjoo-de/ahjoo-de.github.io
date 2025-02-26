@@ -23,13 +23,22 @@ h1 {
   }
 
   .welcome-message {
-    padding: 20px;
-    background-color: $code-background-color; /* Light gray background */
-    border-radius: 5px;
+    background-color: lighten($background-color, 5%); /* Slightly lighter background */
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border: 1px solid $border-color-01; /* Add a border */
+    color: $text-color; /* Set text color */
   }
   
   .welcome-message h1 {
+    color: $site-title-color; /* Use site title color for heading */
     font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-message p {
+    line-height: 1.6;
     margin-bottom: 15px;
   }
 
