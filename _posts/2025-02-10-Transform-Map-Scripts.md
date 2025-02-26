@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Transform Map Scripts
+categories:
+- ServiceNow
 tags:
-- servicenow
 - transformmap
 - script
 ---

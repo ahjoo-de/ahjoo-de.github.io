@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Catalog Item Snippets 2024
+categories:
+- ServiceNow
 tags:
-- servicenow
 - servicecatalog
 - script
 ---

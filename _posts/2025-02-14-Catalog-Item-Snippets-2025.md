@@ -2,8 +2,9 @@
 layout: post
 title: Catalog Item Snippets 2025
 description: This is a collection of snippets i used in catalog items in the last year.
+categories:
+- ServiceNow
 tags:
-- servicenow
 - servicecatalog
 - script
 ---
