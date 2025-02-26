@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Catalog Item Snippets 2025
+description: This is a collection of snippets i used in catalog items in the last year.
 tags:
 - servicenow
 - servicecatalog
 - script
 ---
-
-This is a collection of snippets i used in catalog items in the last year.
 
 ## Overview
 [Catalog Client Script Clear MRVS](#populate-a-field-in-a-multi-row-variable-set-with-the-infromation-from-a-variable-outside-of-that-set)   
