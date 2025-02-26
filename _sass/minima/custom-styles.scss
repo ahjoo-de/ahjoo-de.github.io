@@ -24,7 +24,7 @@ h1 {
 
   .welcome-message {
     padding: 20px;
-    background-color: #f8f8f8; /* Light gray background */
+    background-color: $code-background-color; /* Light gray background */
     border-radius: 5px;
   }
   
@@ -37,7 +37,7 @@ h1 {
 .post-preview {
   margin-bottom: 30px; /* Adjust the value as needed */
   padding-bottom: 10px;
-  border-bottom: 1px solid #eee; /* optional: add a divider line */
+  border-bottom: 1px solid $brand-color-dark; /* optional: add a divider line */
 }
 
 .post-preview:last-child {
