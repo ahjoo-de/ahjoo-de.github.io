@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Custom Action for JSON creation
+categories:
+- ServiceNow
 tags:
 - servicenow
 - flowdesigner
