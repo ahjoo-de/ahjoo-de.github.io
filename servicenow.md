@@ -12,7 +12,7 @@ show_title: false
       <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h4>
     <p>{{ post.description }}</p>
-    <p>{{ post.excerpt }}</p>
+   <!-- <p>{{ post.excerpt }}</p> -->
     <a href="{{ post.url | relative_url }}">Read More</a>
   </article>
 {% endfor %}
