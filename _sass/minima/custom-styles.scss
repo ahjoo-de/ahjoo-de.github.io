@@ -53,3 +53,15 @@ h1 {
   border-bottom: none; /* optional: remove the bottom border from the last element */
   margin-bottom: 0px; /* optional: remove the bottom margin from the last element */
 }
+
+body {
+  font-family: 'Merriweather', serif; /* Or your chosen body font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif; /* Or your chosen heading font */
+}
+
+code, pre {
+    font-family: 'Fira Mono', monospace;
+}

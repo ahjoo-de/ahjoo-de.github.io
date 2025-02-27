@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Custom Action for JSON creation
-description: How to create a custom action fro the use in Flow Designer to create a JSON out of different Data sources within the flow.
+description: How to create a custom action for the use in Flow Designer to create a JSON out of different Data sources within the flow.
 categories:
 - ServiceNow
 tags:
@@ -10,7 +10,7 @@ tags:
 - script
 ---
 
-How to create a custom action fro the use in Flow Designer to create a JSON out of different Data sources within the flow.
+How to create a custom action for the use in Flow Designer to create a JSON out of different Data sources within the flow.
 
 ## Situation
 

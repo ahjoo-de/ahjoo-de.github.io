@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Transform Map Scripts
-description: This is a collection of Scripts to get used in Transform Maps for Data Import.
+description: This is a collection of Scripts I used in Transform Maps for Data Import.
 categories:
 - ServiceNow
 tags:
@@ -9,7 +9,7 @@ tags:
 - script
 ---
 
-This is a collection of Scripts to get used in Transform Maps for Data Import.
+This is a collection of Scripts I used in Transform Maps for Data Import.
 
 ## Overview
 [Transform Map Script Reference Product ID](#reference-product-id)   
