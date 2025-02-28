@@ -94,3 +94,24 @@ body {
   opacity: 1;
 }
 
+.hljs {
+  background: #2d353b !important; // Matches Everforest dark background
+  color: #d3c6aa !important;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title {
+  color: #E69875 !important; // Warm highlight
+}
+
+.hljs-string,
+.hljs-meta,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #83C092 !important; // Greenish tones for strings
+}
+
+.hljs-comment {
+  color: #7A8478 !important; // Softer gray for comments
+}
